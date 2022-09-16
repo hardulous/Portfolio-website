@@ -1,0 +1,146 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    text-align: center;
+}
+
+.headerParent{
+    display: flex;
+    align-items: center;
+}
+
+.headerDetailsName{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.headerDetailsRole{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+.headerDetailsRole h1{
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.primaryText{
+    color: white;
+}
+
+.highlightText{
+    color: red;
+}
+
+.headerRoleTagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins";
+    font-weight: 100;
+}
+
+.headerOptions{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 0px 0px white;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+
+.headerImgBg{
+    height: 92%;
+    width: 92%;
+    background-image: url(../../assets/img1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    transition: 1s ease-out;
+    transform: scale(1,1);
+}
+
+.headerImgBg:hover{
+    transform: scale(1.1,1.1);
+}
+
+.colz .colzIcons svg{
+    fill: white;
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+.colz .colzIcons svg:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width:1110px) {
+    
+    .headerImg{
+        margin: 0 0px 0 50px;
+    }
+    .headerDetailsName{
+        font-size: 20px;
+    }
+    .headerDetailsRole,.primaryText{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    
+    .headerImg{
+       height: 320px;
+       width: 320px;
+       margin: 0 0 0 4px;
+    }
+
+}
+
+@media screen and (max-width:810px){
+     
+    .headerImg{
+        height: 320px;
+        width: 320px;
+        margin: 0px;
+    }
+    .headerParent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .headerOptions{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .headerDetails{
+        margin: 25px 0 0;
+    }
+    .headerOptions{
+        margin: 0px;
+    }
+} 
+
+@media screen and (max-width:375px){
+
+    .headerImg{
+        height: 275px;
+        width: 275px;
+    }
+    .headerDetails{
+        width: 90%;
+    }
+
+}

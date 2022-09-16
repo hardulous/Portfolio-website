@@ -1,0 +1,109 @@
+.expContainer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.expContainer > div{
+    background-color: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.expContainer > div:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.expContainer > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.expContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.expDetails{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.expDetailIcon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+@media screen and (max-width:1024px) {
+    
+    .expContainer{
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+
+    .expContainer > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .expContent{
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    
+    .expContainer{
+        gap: 1rem;
+    }
+
+    .expContainer > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .expFrontend > h3 , .expBackend > h3{
+        font-size: 1.2rem;
+    }
+
+    .expDetails div h4{
+        font-size: 0.8rem;
+    }
+    .expDetails div small{
+        font-size: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    
+    
+    .expFrontend > h3 , .expBackend > h3{
+        font-size: 0.9rem;
+    }
+
+    .expDetails div h4{
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+    .expDetails div small{
+        font-size: 0.5rem;
+    }
+    .expDetailIcon{
+        margin-top: 0px;
+        font-size: 0.7rem;
+    }
+
+    .expContent{
+        padding: 0rem;
+    }
+
+}

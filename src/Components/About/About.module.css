@@ -1,0 +1,176 @@
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.aboutMe{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,transparent,var(--color-primary));
+    display: grid;
+    place-items: center;
+}
+
+.aboutMeImg{
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: var(--transition);
+    transform: rotate(10deg);
+}
+
+.aboutMeImg img{
+    width: 345px;
+    height: 345px;
+    object-position: -1px -37px;
+}
+
+.aboutMeImg:hover{
+    transform: rotate(0deg);
+}
+
+.aboutCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.aboutCard{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem 0rem;
+    transition: var(--transition);
+    text-align: center;
+    width: 103%;
+}
+
+.aboutCard:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.aboutIcon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.aboutCard h5{
+    font-size: 0.95rem;
+}
+
+.aboutCard small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.aboutContent p{
+    margin: 2rem 0rem 2.6rem;
+    color: var(--color-light);
+}
+
+@media screen and (max-width:1024px) {
+    
+    .aboutContainer{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .aboutMe{
+        width: 43%;
+        margin: 2rem auto 4rem;
+    }
+
+    .aboutMeImg img{
+        width: 376px;
+        height: 387px;
+    }
+
+    .aboutContent p{
+        margin: 1rem 0rem 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:950px) {
+    .aboutMe{
+        width: 46%;
+    }
+
+    .aboutMeImg img{
+        width: 326px;
+        height: 317px;
+    }
+}
+
+@media screen and (max-width:840px) {
+    
+    .aboutMe{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .aboutMe{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .aboutMeImg img{
+        width: 306px;
+        height: 307px;
+    }
+
+    .aboutCards{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .aboutContent{
+        text-align: center;
+    }
+
+    .aboutContent p{
+        margin: 1.5rem 0rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    
+    .aboutMe{
+        width: 58%;
+    }
+    .aboutMeImg img{
+        width: 206px;
+        height: 207px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    .aboutMe{
+        width: 62%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    
+    .aboutMe{
+        width: 67%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    
+    .aboutMe{
+        width: 68%;
+    }
+
+    .aboutMeImg img{
+        width: 156px;
+        height: 157px;
+    }
+}
