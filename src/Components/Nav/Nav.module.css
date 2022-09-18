@@ -38,8 +38,8 @@
     color: white;
 }
 
-.NavContainer nav ul li a:hover,.NavContainer nav ul li a.active{
-    color: var(--color-primary);
+.NavContainer nav ul li a:hover{
+    color: var(--color-primary) !important;
 }
 
 
@@ -50,7 +50,7 @@
     height: 31px;
     width: 59px;
     z-index: 3;
-    top: 32%;
+    top: 50%;
     transform: translateY(-50%);
     right: 1rem;
     flex-direction: column;

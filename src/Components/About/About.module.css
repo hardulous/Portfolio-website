@@ -21,8 +21,8 @@
 }
 
 .aboutMeImg img{
-    width: 345px;
-    height: 345px;
+    width: 365px;
+    height: 355px;
     object-position: -1px -37px;
 }
 
@@ -101,8 +101,8 @@
     }
 
     .aboutMeImg img{
-        width: 326px;
-        height: 317px;
+        width: 392px;
+        height: 381px;
     }
 }
 
@@ -110,6 +110,11 @@
     
     .aboutMe{
         width: 50%;
+    }
+
+    .aboutMeImg img{
+        width: 362px;
+        height: 352px;
     }
 }
 
@@ -121,8 +126,8 @@
     }
 
     .aboutMeImg img{
-        width: 306px;
-        height: 307px;
+        width: 326px;
+        height: 337px;
     }
 
     .aboutCards{
@@ -144,8 +149,8 @@
         width: 58%;
     }
     .aboutMeImg img{
-        width: 206px;
-        height: 207px;
+        width: 226px;
+        height: 217px;
     }
 }
 
@@ -170,7 +175,7 @@
     }
 
     .aboutMeImg img{
-        width: 156px;
-        height: 157px;
+        width: 182px;
+        height: 167px;
     }
 }

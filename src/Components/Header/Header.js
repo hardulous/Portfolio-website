@@ -16,16 +16,16 @@ const Header = () => {
           <div className={`${S.colz}`}>
 
             <div className={`${S.colzIcons}`}>
-              <a href="https://www.facebook.com/amanbisht_089">
+              <a href="https://www.facebook.com/amanbisht_089" target="_blank">
                 <AiFillFacebook />
               </a>
-              <a href="mailto:amanbisht123abc@gmail.com">
+              <a href="mailto:amanbisht123abc@gmail.com" target="_blank">
                 <FaGooglePlusSquare />
               </a>
-              <a href="https://www.instagram.com/super211233/">
+              <a href="https://www.instagram.com/super211233/" target="_blank">
                 <GrInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/aman-bisht-24b084221/">
+              <a href="https://www.linkedin.com/in/aman-bisht-24b084221/" target="_blank">
                 <BsLinkedin />
               </a>
             </div>

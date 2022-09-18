@@ -10,10 +10,11 @@
 .headerParent{
     display: flex;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .headerDetailsName{
-    font-size: 24px;
+    font-size: 2.2rem;
     font-family: 'Poppins';
     font-weight: 500;
 }
@@ -25,7 +26,7 @@
 }
 
 .headerDetailsRole h1{
-  font-size: 40px;
+  font-size: 3rem;
   font-family: cursive;
 }
 
@@ -34,12 +35,13 @@
 }
 
 .highlightText{
-    color: red;
+    color: var(--color-primary);
 }
 
 .headerRoleTagline{
-    font-size: 19px;
-    margin: 5px 0 0 0;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 2rem 0rem 1rem 0rem;
     font-family: "Poppins";
     font-weight: 100;
 }
@@ -89,14 +91,14 @@
 
 @media screen and (max-width:1110px) {
     
+    .headerParent{
+        margin-top: 2rem;
+    }
     .headerImg{
         margin: 0 0px 0 50px;
     }
-    .headerDetailsName{
-        font-size: 20px;
-    }
     .headerDetailsRole,.primaryText{
-        font-size: 12px;
+        font-size: 2rem;
     }
 }
 
@@ -141,6 +143,15 @@
     }
     .headerDetails{
         width: 90%;
+    }
+    .headerDetailsRole,.primaryText{
+        font-size: 1.3rem;
+    }
+    .headerDetailsRole h1{
+        font-size: 1.7rem
+    }
+    .headerRoleTagline{
+        font-size: 0.8rem;
     }
 
 }
