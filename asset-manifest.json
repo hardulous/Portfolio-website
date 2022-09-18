@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-website/static/css/main.4b9bbe25.css",
+    "main.js": "/Portfolio-website/static/js/main.0d630018.js",
+    "static/media/digi-vertex.PNG": "/Portfolio-website/static/media/digi-vertex.171099b7ebe2bb8b4ae8.PNG",
+    "static/media/kgb.PNG": "/Portfolio-website/static/media/kgb.9af133ff5e226fe00fbd.PNG",
+    "static/media/interface.PNG": "/Portfolio-website/static/media/interface.624812ce01b3fd001162.PNG",
+    "static/media/recollect2.PNG": "/Portfolio-website/static/media/recollect2.b5fed68786abc631137e.PNG",
+    "static/media/cv.pdf": "/Portfolio-website/static/media/cv.e83098027c2b7c71a8f0.pdf",
+    "static/media/img5.jpeg": "/Portfolio-website/static/media/img5.8c40b417dd7b86c7962a.jpeg",
+    "static/media/portfolio2.jpg": "/Portfolio-website/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/img1.jpeg": "/Portfolio-website/static/media/img1.9db087212e775c2a02ce.jpeg",
+    "static/media/portfolio1.jpg": "/Portfolio-website/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/Portfolio-website/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/Portfolio-website/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "index.html": "/Portfolio-website/index.html",
+    "main.4b9bbe25.css.map": "/Portfolio-website/static/css/main.4b9bbe25.css.map",
+    "main.0d630018.js.map": "/Portfolio-website/static/js/main.0d630018.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b9bbe25.css",
+    "static/js/main.0d630018.js"
+  ]
+}
